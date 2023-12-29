@@ -1,0 +1,6 @@
+framework module Pods_SameWeatherTestTask_SameWeatherTestTaskUITests {
+  umbrella header "Pods-SameWeatherTestTask-SameWeatherTestTaskUITests-umbrella.h"
+
+  export *
+  module * { export * }
+}
