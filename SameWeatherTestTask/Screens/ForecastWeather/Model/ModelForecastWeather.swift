@@ -7,12 +7,12 @@
 
 import Foundation
 
-struct DTOModelForecastWheater {
+struct DTOModelForecastWeather {
     let city: String
-    let weathers: [ModelForecastWheaterCell]
+    let weathers: [ModelForecastWeatherCell]
 }
 
-struct ModelForecastWheater {
+struct ModelForecastWeather {
     let temp: String
     let image: String
     let city: String

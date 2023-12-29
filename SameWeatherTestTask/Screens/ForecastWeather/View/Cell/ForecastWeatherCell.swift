@@ -8,7 +8,7 @@
 import UIKit
 import Kingfisher
 
-final class ForecastWheaterCell: UITableViewCell {
+final class ForecastWeatherCell: UITableViewCell {
 
     //MARK: - Properties
     
@@ -72,14 +72,14 @@ final class ForecastWheaterCell: UITableViewCell {
         }
     }
 }
-extension ForecastWheaterCell: ConfigurableView {
+extension ForecastWeatherCell: ConfigurableView {
     
-    func configure(with model: ModelForecastWheaterCell) {
+    func configure(with model: ModelForecastWeatherCell) {
         dayLabel.text = DateFormatter().getWeekDay(date: model.date)
         temperatureLabel.text = "\(model.temp)º"
         typeWeatherImage.kf.setImage(with: APIBuilder.fetchWeatherImage(for: model.image))
     }
     
-    typealias Model = ModelForecastWheaterCell
+    typealias Model = ModelForecastWeatherCell
 }
 

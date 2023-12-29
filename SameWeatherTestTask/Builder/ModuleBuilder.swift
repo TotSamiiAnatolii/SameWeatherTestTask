@@ -29,10 +29,10 @@ final class ModuleBuilder: AssemblyBuilderProtocol {
     }
 
     func createMain(router: RouterProtocol) -> UIViewController {
-        let viewModel = ForecastWheaterViewModel(router: router,
+        let viewModel = ForecastWeatherViewModel(router: router,
                                                  sameWeatherAPIManager: sameWeatherAPIManager,
                                                  cityManager: cityManager)
-        let view = ForecastWheaterController(viewModel: viewModel)
+        let view = ForecastWeatherController(viewModel: viewModel)
         return view
     }
     

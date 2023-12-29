@@ -12,21 +12,21 @@
 		184776DA2B3DFBB000B39B84 /* DateFormatter+.swift in Sources */ = {isa = PBXBuildFile; fileRef = 184776D92B3DFBB000B39B84 /* DateFormatter+.swift */; };
 		18D003932B39F5A20070743A /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18D003922B39F5A20070743A /* AppDelegate.swift */; };
 		18D003952B39F5A20070743A /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18D003942B39F5A20070743A /* SceneDelegate.swift */; };
-		18D003972B39F5A20070743A /* ForecastWheaterController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18D003962B39F5A20070743A /* ForecastWheaterController.swift */; };
+		18D003972B39F5A20070743A /* ForecastWeatherController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18D003962B39F5A20070743A /* ForecastWeatherController.swift */; };
 		18D0039C2B39F5A60070743A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 18D0039B2B39F5A60070743A /* Assets.xcassets */; };
 		18D0039F2B39F5A60070743A /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 18D0039D2B39F5A60070743A /* LaunchScreen.storyboard */; };
 		18D003AA2B39F5A70070743A /* SameWeatherTestTaskTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18D003A92B39F5A70070743A /* SameWeatherTestTaskTests.swift */; };
 		18D003B42B39F5A70070743A /* SameWeatherTestTaskUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18D003B32B39F5A70070743A /* SameWeatherTestTaskUITests.swift */; };
 		18D003B62B39F5A70070743A /* SameWeatherTestTaskUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18D003B52B39F5A70070743A /* SameWeatherTestTaskUITestsLaunchTests.swift */; };
-		18D003CE2B39F6FC0070743A /* ForecastWheaterViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18D003CD2B39F6FC0070743A /* ForecastWheaterViewModel.swift */; };
-		18D003D02B39F70B0070743A /* ModelForecastWheater.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18D003CF2B39F70B0070743A /* ModelForecastWheater.swift */; };
+		18D003CE2B39F6FC0070743A /* ForecastWeatherViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18D003CD2B39F6FC0070743A /* ForecastWeatherViewModel.swift */; };
+		18D003D02B39F70B0070743A /* ModelForecastWeather.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18D003CF2B39F70B0070743A /* ModelForecastWeather.swift */; };
 		18D003D22B39F7330070743A /* ListCityController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18D003D12B39F7330070743A /* ListCityController.swift */; };
 		18D003D42B39F7710070743A /* ListCityViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18D003D32B39F7710070743A /* ListCityViewModel.swift */; };
 		18D003D62B39F7B70070743A /* NetworkManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18D003D52B39F7B70070743A /* NetworkManager.swift */; };
 		18D003DA2B39F9190070743A /* NetworkManagerError.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18D003D92B39F9190070743A /* NetworkManagerError.swift */; };
 		18D003DC2B39F9A30070743A /* APIBuilder.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18D003DB2B39F9A30070743A /* APIBuilder.swift */; };
 		18D003DE2B39FA410070743A /* SameWeatherManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18D003DD2B39FA410070743A /* SameWeatherManager.swift */; };
-		18D003E02B39FC070070743A /* ForecastWheaterView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18D003DF2B39FC070070743A /* ForecastWheaterView.swift */; };
+		18D003E02B39FC070070743A /* ForecastWeatherView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18D003DF2B39FC070070743A /* ForecastWeatherView.swift */; };
 		18D003E52B3A000B0070743A /* UILable+MyStyle.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18D003E42B3A000B0070743A /* UILable+MyStyle.swift */; };
 		18D003E82B3A00780070743A /* Fonts.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18D003E72B3A00780070743A /* Fonts.swift */; };
 		18D003EB2B3A022F0070743A /* ConfigurableView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18D003EA2B3A022F0070743A /* ConfigurableView.swift */; };
@@ -37,8 +37,8 @@
 		18D003F82B3A0AAB0070743A /* NameCityCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18D003F72B3A0AAB0070743A /* NameCityCell.swift */; };
 		18D003FA2B3A0D800070743A /* ModelNameCityCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18D003F92B3A0D800070743A /* ModelNameCityCell.swift */; };
 		18D003FC2B3A11760070743A /* AppDesign.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18D003FB2B3A11760070743A /* AppDesign.swift */; };
-		18D004002B3A1C810070743A /* ForecastWheaterCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18D003FF2B3A1C810070743A /* ForecastWheaterCell.swift */; };
-		18D004022B3A1E4C0070743A /* ModelForecastWheaterCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18D004012B3A1E4C0070743A /* ModelForecastWheaterCell.swift */; };
+		18D004002B3A1C810070743A /* ForecastWeatherCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18D003FF2B3A1C810070743A /* ForecastWeatherCell.swift */; };
+		18D004022B3A1E4C0070743A /* ModelForecastWeatherCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18D004012B3A1E4C0070743A /* ModelForecastWeatherCell.swift */; };
 		18D004052B3A8E470070743A /* Double+.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18D004042B3A8E470070743A /* Double+.swift */; };
 		18D004082B3A91120070743A /* ModelSameWeather.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18D004072B3A91120070743A /* ModelSameWeather.swift */; };
 		18D0040B2B3B49E00070743A /* Mapper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18D0040A2B3B49E00070743A /* Mapper.swift */; };
@@ -75,7 +75,7 @@
 		18D0038F2B39F5A20070743A /* SameWeatherTestTask.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SameWeatherTestTask.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		18D003922B39F5A20070743A /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		18D003942B39F5A20070743A /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		18D003962B39F5A20070743A /* ForecastWheaterController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ForecastWheaterController.swift; sourceTree = "<group>"; };
+		18D003962B39F5A20070743A /* ForecastWeatherController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ForecastWeatherController.swift; sourceTree = "<group>"; };
 		18D0039B2B39F5A60070743A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		18D0039E2B39F5A60070743A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		18D003A02B39F5A60070743A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -84,15 +84,15 @@
 		18D003AF2B39F5A70070743A /* SameWeatherTestTaskUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SameWeatherTestTaskUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		18D003B32B39F5A70070743A /* SameWeatherTestTaskUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SameWeatherTestTaskUITests.swift; sourceTree = "<group>"; };
 		18D003B52B39F5A70070743A /* SameWeatherTestTaskUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SameWeatherTestTaskUITestsLaunchTests.swift; sourceTree = "<group>"; };
-		18D003CD2B39F6FC0070743A /* ForecastWheaterViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ForecastWheaterViewModel.swift; sourceTree = "<group>"; };
-		18D003CF2B39F70B0070743A /* ModelForecastWheater.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ModelForecastWheater.swift; sourceTree = "<group>"; };
+		18D003CD2B39F6FC0070743A /* ForecastWeatherViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ForecastWeatherViewModel.swift; sourceTree = "<group>"; };
+		18D003CF2B39F70B0070743A /* ModelForecastWeather.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ModelForecastWeather.swift; sourceTree = "<group>"; };
 		18D003D12B39F7330070743A /* ListCityController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ListCityController.swift; sourceTree = "<group>"; };
 		18D003D32B39F7710070743A /* ListCityViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ListCityViewModel.swift; sourceTree = "<group>"; };
 		18D003D52B39F7B70070743A /* NetworkManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkManager.swift; sourceTree = "<group>"; };
 		18D003D92B39F9190070743A /* NetworkManagerError.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkManagerError.swift; sourceTree = "<group>"; };
 		18D003DB2B39F9A30070743A /* APIBuilder.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = APIBuilder.swift; sourceTree = "<group>"; };
 		18D003DD2B39FA410070743A /* SameWeatherManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SameWeatherManager.swift; sourceTree = "<group>"; };
-		18D003DF2B39FC070070743A /* ForecastWheaterView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ForecastWheaterView.swift; sourceTree = "<group>"; };
+		18D003DF2B39FC070070743A /* ForecastWeatherView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ForecastWeatherView.swift; sourceTree = "<group>"; };
 		18D003E42B3A000B0070743A /* UILable+MyStyle.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UILable+MyStyle.swift"; sourceTree = "<group>"; };
 		18D003E72B3A00780070743A /* Fonts.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Fonts.swift; sourceTree = "<group>"; };
 		18D003EA2B3A022F0070743A /* ConfigurableView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ConfigurableView.swift; sourceTree = "<group>"; };
@@ -103,8 +103,8 @@
 		18D003F72B3A0AAB0070743A /* NameCityCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NameCityCell.swift; sourceTree = "<group>"; };
 		18D003F92B3A0D800070743A /* ModelNameCityCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ModelNameCityCell.swift; sourceTree = "<group>"; };
 		18D003FB2B3A11760070743A /* AppDesign.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDesign.swift; sourceTree = "<group>"; };
-		18D003FF2B3A1C810070743A /* ForecastWheaterCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ForecastWheaterCell.swift; sourceTree = "<group>"; };
-		18D004012B3A1E4C0070743A /* ModelForecastWheaterCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ModelForecastWheaterCell.swift; sourceTree = "<group>"; };
+		18D003FF2B3A1C810070743A /* ForecastWeatherCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ForecastWeatherCell.swift; sourceTree = "<group>"; };
+		18D004012B3A1E4C0070743A /* ModelForecastWeatherCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ModelForecastWeatherCell.swift; sourceTree = "<group>"; };
 		18D004042B3A8E470070743A /* Double+.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Double+.swift"; sourceTree = "<group>"; };
 		18D004072B3A91120070743A /* ModelSameWeather.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ModelSameWeather.swift; sourceTree = "<group>"; };
 		18D0040A2B3B49E00070743A /* Mapper.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Mapper.swift; sourceTree = "<group>"; };
@@ -294,21 +294,21 @@
 			path = ViewModel;
 			sourceTree = "<group>";
 		};
-		18D003C82B39F61B0070743A /* ForecastWheater */ = {
+		18D003C82B39F61B0070743A /* ForecastWeather */ = {
 			isa = PBXGroup;
 			children = (
 				18D003C92B39F6780070743A /* View */,
 				18D003CB2B39F6870070743A /* ViewModel */,
 				18D003CC2B39F68E0070743A /* Model */,
 			);
-			path = ForecastWheater;
+			path = ForecastWeather;
 			sourceTree = "<group>";
 		};
 		18D003C92B39F6780070743A /* View */ = {
 			isa = PBXGroup;
 			children = (
-				18D003962B39F5A20070743A /* ForecastWheaterController.swift */,
-				18D003DF2B39FC070070743A /* ForecastWheaterView.swift */,
+				18D003962B39F5A20070743A /* ForecastWeatherController.swift */,
+				18D003DF2B39FC070070743A /* ForecastWeatherView.swift */,
 				18D003FD2B3A1C420070743A /* Cell */,
 			);
 			path = View;
@@ -317,7 +317,7 @@
 		18D003CB2B39F6870070743A /* ViewModel */ = {
 			isa = PBXGroup;
 			children = (
-				18D003CD2B39F6FC0070743A /* ForecastWheaterViewModel.swift */,
+				18D003CD2B39F6FC0070743A /* ForecastWeatherViewModel.swift */,
 			);
 			path = ViewModel;
 			sourceTree = "<group>";
@@ -325,8 +325,8 @@
 		18D003CC2B39F68E0070743A /* Model */ = {
 			isa = PBXGroup;
 			children = (
-				18D003CF2B39F70B0070743A /* ModelForecastWheater.swift */,
-				18D004012B3A1E4C0070743A /* ModelForecastWheaterCell.swift */,
+				18D003CF2B39F70B0070743A /* ModelForecastWeather.swift */,
+				18D004012B3A1E4C0070743A /* ModelForecastWeatherCell.swift */,
 			);
 			path = Model;
 			sourceTree = "<group>";
@@ -427,7 +427,7 @@
 		18D003FD2B3A1C420070743A /* Cell */ = {
 			isa = PBXGroup;
 			children = (
-				18D003FF2B3A1C810070743A /* ForecastWheaterCell.swift */,
+				18D003FF2B3A1C810070743A /* ForecastWeatherCell.swift */,
 			);
 			path = Cell;
 			sourceTree = "<group>";
@@ -475,7 +475,7 @@
 		18D004152B3C88B40070743A /* Screens */ = {
 			isa = PBXGroup;
 			children = (
-				18D003C82B39F61B0070743A /* ForecastWheater */,
+				18D003C82B39F61B0070743A /* ForecastWeather */,
 				18D003C42B39F5EE0070743A /* ListCity */,
 			);
 			path = Screens;
@@ -748,18 +748,18 @@
 				18D003F12B3A03FA0070743A /* UIStackView+MyStyle.swift in Sources */,
 				18D003D22B39F7330070743A /* ListCityController.swift in Sources */,
 				18D003DA2B39F9190070743A /* NetworkManagerError.swift in Sources */,
-				18D003E02B39FC070070743A /* ForecastWheaterView.swift in Sources */,
-				18D003CE2B39F6FC0070743A /* ForecastWheaterViewModel.swift in Sources */,
+				18D003E02B39FC070070743A /* ForecastWeatherView.swift in Sources */,
+				18D003CE2B39F6FC0070743A /* ForecastWeatherViewModel.swift in Sources */,
 				18D003DE2B39FA410070743A /* SameWeatherManager.swift in Sources */,
 				18D004082B3A91120070743A /* ModelSameWeather.swift in Sources */,
-				18D003D02B39F70B0070743A /* ModelForecastWheater.swift in Sources */,
-				18D004022B3A1E4C0070743A /* ModelForecastWheaterCell.swift in Sources */,
+				18D003D02B39F70B0070743A /* ModelForecastWeather.swift in Sources */,
+				18D004022B3A1E4C0070743A /* ModelForecastWeatherCell.swift in Sources */,
 				18D003FC2B3A11760070743A /* AppDesign.swift in Sources */,
 				18D003EE2B3A036C0070743A /* UIViewController+MyStyle.swift in Sources */,
 				184776D42B3CCB4D00B39B84 /* LocationManager.swift in Sources */,
 				18D004182B3C88E40070743A /* ModuleBuilder.swift in Sources */,
 				18D0040B2B3B49E00070743A /* Mapper.swift in Sources */,
-				18D003972B39F5A20070743A /* ForecastWheaterController.swift in Sources */,
+				18D003972B39F5A20070743A /* ForecastWeatherController.swift in Sources */,
 				18D0041A2B3C88F50070743A /* RouterMain.swift in Sources */,
 				18D003F82B3A0AAB0070743A /* NameCityCell.swift in Sources */,
 				18D004052B3A8E470070743A /* Double+.swift in Sources */,
@@ -769,7 +769,7 @@
 				18D003D42B39F7710070743A /* ListCityViewModel.swift in Sources */,
 				18D003F52B3A09AE0070743A /* ListCityView.swift in Sources */,
 				18D003D62B39F7B70070743A /* NetworkManager.swift in Sources */,
-				18D004002B3A1C810070743A /* ForecastWheaterCell.swift in Sources */,
+				18D004002B3A1C810070743A /* ForecastWeatherCell.swift in Sources */,
 				18D003DC2B39F9A30070743A /* APIBuilder.swift in Sources */,
 				18D003FA2B3A0D800070743A /* ModelNameCityCell.swift in Sources */,
 				18D003952B39F5A20070743A /* SceneDelegate.swift in Sources */,

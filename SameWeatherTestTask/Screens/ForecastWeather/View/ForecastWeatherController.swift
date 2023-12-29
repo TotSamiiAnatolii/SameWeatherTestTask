@@ -8,22 +8,22 @@
 import UIKit
 import RxSwift
 
-final class ForecastWheaterController: UIViewController {
+final class ForecastWeatherController: UIViewController {
     
     //MARK: - Properties
     
-    private var viewModel: ForecastWheaterViewModelProtocol
+    private var viewModel: ForecastWeatherViewModelProtocol
     
     private var disposeBag = DisposeBag()
     
-    fileprivate var forecastWheaterView: ForecastWheaterView {
-        guard let view = self.view as? ForecastWheaterView else {
-            return ForecastWheaterView()
+    fileprivate var forecastWheaterView: ForecastWeatherView {
+        guard let view = self.view as? ForecastWeatherView else {
+            return ForecastWeatherView()
         }
         return view
     }
     
-    private var model: [ModelForecastWheaterCell] = []
+    private var model: [ModelForecastWeatherCell] = []
     
     private let estimatedRowHeight: CGFloat = 44
     
@@ -31,7 +31,7 @@ final class ForecastWheaterController: UIViewController {
     
     override func loadView() {
         super.loadView()
-        self.view = ForecastWheaterView(frame: UIScreen.main.bounds)
+        self.view = ForecastWeatherView(frame: UIScreen.main.bounds)
     }
     
     override func viewDidLoad() {
@@ -56,7 +56,7 @@ final class ForecastWheaterController: UIViewController {
     
     //MARK: - Init
     
-    init(viewModel: ForecastWheaterViewModelProtocol) {
+    init(viewModel: ForecastWeatherViewModelProtocol) {
         self.viewModel = viewModel
         super.init(nibName: nil, bundle: nil)
     }
@@ -91,23 +91,23 @@ final class ForecastWheaterController: UIViewController {
     
     //MARK: - Configure view
     
-    func configure(model: DTOModelForecastWheater) {
+    func configure(model: DTOModelForecastWeather) {
         self.model = model.weathers
-        let modelMain = ModelForecastWheater(temp: model.weathers.first?.temp ?? "0.0",
+        let modelMain = ModelForecastWeather(temp: model.weathers.first?.temp ?? "0.0",
                                           image: model.weathers.first?.image ?? "",
                                           city: model.city)
         forecastWheaterView.configure(with: modelMain)
         forecastWheaterView.tableView.reloadData()
     }
 }
-extension ForecastWheaterController: UITableViewDelegate, UITableViewDataSource {
+extension ForecastWeatherController: UITableViewDelegate, UITableViewDataSource {
     func tableView(_ tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
         model.count
     }
     
     func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
         
-        guard let cell = tableView.dequeueReusableCell(withIdentifier: ForecastWheaterCell.identifire, for: indexPath) as? ForecastWheaterCell else {
+        guard let cell = tableView.dequeueReusableCell(withIdentifier: ForecastWeatherCell.identifire, for: indexPath) as? ForecastWeatherCell else {
             return UITableViewCell()
         }
         

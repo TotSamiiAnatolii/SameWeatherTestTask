@@ -9,7 +9,7 @@ import UIKit
 import SnapKit
 import Kingfisher
 
-final class ForecastWheaterView: UIView {
+final class ForecastWeatherView: UIView {
     
     //MARK: - Properties
     
@@ -19,7 +19,7 @@ final class ForecastWheaterView: UIView {
         tableView.showsVerticalScrollIndicator = false
         tableView.separatorStyle = .none
         tableView.backgroundColor = .white
-        tableView.register(ForecastWheaterCell.self, forCellReuseIdentifier: ForecastWheaterCell.identifire)
+        tableView.register(ForecastWeatherCell.self, forCellReuseIdentifier: ForecastWeatherCell.identifire)
         return tableView
     }()
     
@@ -90,13 +90,13 @@ final class ForecastWheaterView: UIView {
         backgroundColor = .white
     }
 }
-extension ForecastWheaterView: ConfigurableView {
+extension ForecastWeatherView: ConfigurableView {
     
-    func configure(with model: ModelForecastWheater) {
+    func configure(with model: ModelForecastWeather) {
         cityLabel.text = model.city
         mainTemperatureLabel.text = "\(model.temp)º"
         typeWeatherImage.kf.setImage(with: APIBuilder.fetchWeatherImage(for: model.image))
     }
     
-    typealias Model = ModelForecastWheater
+    typealias Model = ModelForecastWeather
 }

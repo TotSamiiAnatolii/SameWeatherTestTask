@@ -9,9 +9,9 @@ import Foundation
 import RxSwift
 import CoreLocation
 
-protocol ForecastWheaterViewModelProtocol {
+protocol ForecastWeatherViewModelProtocol {
     
-    var weather: PublishSubject<DTOModelForecastWheater?> { get }
+    var weather: PublishSubject<DTOModelForecastWeather?> { get }
     
     func viewDidLoad()
  
@@ -26,7 +26,7 @@ protocol ForecastWheaterViewModelProtocol {
     func showAlert(with error: Error)
 }
 
-final class ForecastWheaterViewModel: ForecastWheaterViewModelProtocol {
+final class ForecastWeatherViewModel: ForecastWeatherViewModelProtocol {
   
     //MARK: - Properties
     
@@ -40,7 +40,7 @@ final class ForecastWheaterViewModel: ForecastWheaterViewModelProtocol {
     
     private let locationManager = LocationManager()
     
-    public var weather = PublishSubject<DTOModelForecastWheater?>()
+    public var weather = PublishSubject<DTOModelForecastWeather?>()
     
     //MARK: - Init
     

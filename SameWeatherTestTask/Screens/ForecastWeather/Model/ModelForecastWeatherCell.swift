@@ -7,7 +7,7 @@
 
 import Foundation
 
-struct ModelForecastWheaterCell {
+struct ModelForecastWeatherCell {
     
     let temp: String
     let image: String

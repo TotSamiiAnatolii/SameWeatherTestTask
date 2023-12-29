@@ -23,13 +23,13 @@ extension MapperProtocol {
 
 final class Mapper: MapperProtocol {
     
-    func map(model: CurrentWeatherResponse) -> DTOModelForecastWheater {
+    func map(model: CurrentWeatherResponse) -> DTOModelForecastWeather {
         
-        DTOModelForecastWheater(city: model.city.name, weathers: model.list.map({ weather in
+        DTOModelForecastWeather(city: model.city.name, weathers: model.list.map({ weather in
 //            print(String(weather.main.temp))
 //            print(String(weather.main.temp.celcius.formattedCelcius))
             
-           return  ModelForecastWheaterCell(temp: String(weather.main.temp.celcius.formattedCelcius),
+           return  ModelForecastWeatherCell(temp: String(weather.main.temp.celcius.formattedCelcius),
                                      image: weather.weather.first?.icon ?? "",
                                      date:  weather.dt)
             
